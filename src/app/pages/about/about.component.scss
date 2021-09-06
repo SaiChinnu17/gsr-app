@@ -1,0 +1,48 @@
+.about_title {
+    margin-top: 60px;
+    color: linear-gradient(-264deg, rgba(6, 155, 187, 1) 0%, rgba(0, 81, 149, 1) 100%);
+}
+.about_content-1 {
+    margin: 40px;
+    font-size: 17px;
+    color: black;
+    font-family: "Montserrat-Medium";
+    line-break: 26px;
+}
+// .about_img-1{
+//     margin-left: 80px;
+// }
+.about_ad-1{
+    width: 573px;
+    height: 233px;
+    background: linear-gradient(-264deg, rgba(6, 155, 187, 1) 0%, rgba(0, 81, 149, 1) 100%);
+    margin-left: 20px;
+    margin-top: -200px;
+    position: relative;
+
+}
+.about_content-2{
+    color: white;
+    padding: 55px;
+    font-size: 18px;
+}
+.about_ad-2{
+    background: linear-gradient(-264deg, rgba(6, 155, 187, 1) 0%, rgba(0, 81, 149, 1) 100%);
+    width: 400px;
+    bottom: 425px;
+    right: 138px;
+    color: #fff;
+    padding: 40px;
+    align-self: flex-end;
+    position: relative;
+}
+
+.img_about-2 {
+    position: relative;
+}
+
+.about_content-3{
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+}
