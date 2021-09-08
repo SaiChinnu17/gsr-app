@@ -1,0 +1,89 @@
+// delete the following line if no text is used
+// edit the line if you wanna use other fonts
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:300,400');
+body {
+	background: #643a7a;
+}
+// use only the available space inside the 400x400 frame
+// .frame {
+//   position: absolute;
+//   top: 50%;
+//   left: 50%;
+//   width: 400px;
+//   height: 400px;
+//   margin-top: -200px;
+//   margin-left: -200px;
+//   border-radius: 2px;
+// 	box-shadow: .5rem 1rem 1rem rgba(0,0,0,0.6);
+// 	overflow: hidden;
+//   background: #efefef;
+//   color: #333;
+// 	font-family: 'roboto slab', serif;
+// 	-webkit-font-smoothing: antialiased;
+// 	-moz-osx-font-smoothing: grayscale;
+// }
+
+// .center {
+//   position: absolute;
+//   top: 49.5%;
+//   left: 0;
+//   right: 0;
+//   margin-top: -22.5px;
+// 	background: pink;
+// }
+.carousel {
+  position: relative;
+  width: 100%;
+  
+  font-size: 30px;
+  line-height: 45px;
+  height: 45px;
+}
+.carousel .pre {
+  position: absolute;
+  top: 0;
+//   right: 52%;
+  height: 45px;
+  text-shadow: 1px 1px 1px #3c2254;
+  font-weight: 300;
+}
+.carousel .change_outer {
+  position: absolute;
+  top: 0;
+//   left: 54%;
+  text-align: left;
+  height: 45px;
+  overflow: hidden;
+}
+.carousel .change_outer .change_inner {
+  position: relative;
+  animation: rotate 8s ease-in-out infinite;
+}
+.carousel .change_outer .element {
+  display: block;
+}
+
+@keyframes rotate {
+ 10%, 15%, 100% {
+            transform: translateY(0);
+  }
+  25%,36% {
+            transform: translateY(-45px);
+  }
+  46%,57% {
+            transform: translateY(-90px);
+  }
+  67%,78% {
+            transform: translateY(-135px);
+  }
+  88%, 99% {
+            transform: translateY(-180px);
+  }
+}
+
+.col h1{
+    background: linear-gradient(to right, #00b4b1 0%, #026ca8 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: bold;
+  }
