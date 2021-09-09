@@ -17,3 +17,8 @@
     justify-self:  flex-end;
   }
   
+  @media screen and (max-width: 599.9px){
+  .footer{
+  display: none;
+  }
+}
