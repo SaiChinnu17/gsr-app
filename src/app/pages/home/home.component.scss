@@ -179,3 +179,17 @@ body {
   height: 674px;
   width: 530px;
 }
+
+.home-pic1 img{
+  width:60%;
+  height: 75%;
+ position: absolute;
+}
+
+.home-pic2 img{
+ position: relative;
+ width: 40%;
+ height: 40%;
+right: -600px;
+top: 100px;
+}
