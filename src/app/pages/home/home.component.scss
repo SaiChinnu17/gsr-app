@@ -133,7 +133,7 @@ body {
       left: 0px;
       width: 100%;
       height: 100%;
-      background-image: url('Bitmap_1.png');
+      background-image: url('Bitmap.png');
      background-size: 100%;
       background-size: cover;   
   }
@@ -200,8 +200,96 @@ position: absolute;
       top: 100px;
       left: 624px;
       width: 45%;
-      height: 75%;
+      height: 85%;
 background-image: url('Combined_Shape.png');
-background-size: 45%;
+background-size: 100%;
 background-size: cover;   
+}
+
+
+.wrapper1{
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1212px;
+  margin: 0px auto 64px;
+  padding: 0px;
+  position: relative;
+  }
+ .wrapper1 .content1{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px 15px 0px;
+    margin: 0px auto;
+    max-width: 1440px;
+    /* display: ; */
+     flex-flow: row nowrap;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    align-items: flex-start;
+} 
+.wrapper1 .block1{
+  position: relative;
+}
+ 
+.wrapper1 .block1::before{
+  display: block;
+  width: 100%;
+  padding-top: 30%;
+  content: "";
+}
+
+ .wrapper1 .block1 .span1{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+} 
+.wrapper1 .block1 .span1 .bg1{
+  position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-image: url('Bitmap_Copy.png');
+   background-size: 100%;
+    background-size: cover;   
+}
+
+.wrapper1 .content1{
+  box-sizing: border-box;
+    width: 100%;
+    padding: 30px;
+    position: relative;
+    background: linear-gradient(
+141deg
+, rgb(6, 130, 187) 0%, rgb(0, 81, 149) 100%);
+    color: rgb(255, 255, 255);
+}
+.wrapper1 .content1 h3{
+    font-size: 20px;
+    line-height: 1.4;
+    font-weight: 700;
+    margin: 0px 0px 32px;
+    color: rgb(255, 255, 255);
+}
+.wrapper1 .content1 p{
+  /* margin: 0px 0px 28px; */
+  margin: 0;
+  font-size: 18px;
+  line-height: 26pt;
+  color: #fff;
+}
+  
+@media (min-width: 64em){
+  .wrapper1 .content1{
+    width: 500px;
+    padding: 15px;
+    position: absolute;
+    bottom: -50px;
+    left: 24px;   
+    -webkit-box-align: center;
+    align-items: center;
+}
 }
