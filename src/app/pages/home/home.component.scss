@@ -36,14 +36,14 @@ body {
   width: 100%;
   
   font-size: 30px;
-  line-height: 45px;
+  line-height: 20px;
   height: 45px;
 }
 .carousel .pre {
   position: absolute;
   top: 0;
 //   right: 52%;
-  height: 45px;
+  height: 20px;
   text-shadow: 1px 1px 1px #3c2254;
   font-weight: 300;
 }
@@ -52,7 +52,7 @@ body {
   top: 0;
 //   left: 54%;
   text-align: left;
-  height: 45px;
+  height: 25px;
   overflow: hidden;
 }
 .carousel .change_outer .change_inner {
@@ -68,16 +68,16 @@ body {
             transform: translateY(0);
   }
   25%,36% {
-            transform: translateY(-45px);
+            transform: translateY(-22px);
   }
   46%,57% {
-            transform: translateY(-90px);
+            transform: translateY(-55px);
   }
   67%,78% {
-            transform: translateY(-135px);
+            transform: translateY(0);
   }
   88%, 99% {
-            transform: translateY(-180px);
+            transform: translateY(0);
   }
 }
 
@@ -133,9 +133,10 @@ body {
       left: 0px;
       width: 100%;
       height: 100%;
-      background-image: url('Bitmap.png');
+      background-image: url('Bitmap1.png');
      background-size: 100%;
-      background-size: cover;   
+      background-size: cover;  
+
   }
   
   .wrapper .content{
@@ -174,10 +175,15 @@ body {
       align-items: center;
   }
   }
-  
+  .span{
+    font-weight:bold;
+  }
+  .home-p{
+    font-weight:bold;
+  }
 .home-img{
-  height: 674px;
-  width: 530px;
+  height: 600px;
+  width: 500px;
 }
 
 .home-pic1 img{
@@ -292,4 +298,48 @@ background-size: cover;
     -webkit-box-align: center;
     align-items: center;
 }
+}
+
+.btn{
+  background: linear-gradient(to right, #00b4b1 0%, #026ca8 100%);
+  -webkit-text-fill-color: transparent;
+  
+  -webkit-background-clip: text;
+  font-weight: bold;
+}
+.col-sm h3{
+  background: linear-gradient(to right, #00b4b1 0%, #026ca8 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 599.9px){
+  .col h1{
+   font-size: 20px;
+  }
+ .home-pic1 img{
+   width: 90%;
+ }
+ .home-pic2 img{
+ display: none;
+ }
+ .home-pic3 img{
+display: none;
+ }
+ .home-row{
+   margin-top: 450px;
+   width: auto;
+ }
+ .col-sm  p{
+   font-size: 100%;
+ }
+ .col-sm img{
+   width:100%;
+   padding: 15px 0;
+ }
+ .col-sm  h3{
+   font-size: 100%;
+ }
+ 
 }

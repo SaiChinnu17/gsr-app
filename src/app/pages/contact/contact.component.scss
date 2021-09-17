@@ -1,21 +1,26 @@
 @media screen and (max-width: 599.9px){
 
 .form-row{
-width: 480px;
+width: 100%;
 
 
 }
 .shadow {
-    width: 500px;
+    width: 100%;
   
 }
 .img-contact{
-  width: 470px;
+  width: 100%;
 }
 .shadow h2{
     font-size:100%;
 }
-
+.sai{
+  padding: 20px 0;
+}
+.col-sm{
+  margin: auto;
+}
 }
 .btn{
     border: 1px solid;
@@ -32,7 +37,7 @@ width: 480px;
       margin-top: 10px;
   }
 
-  .col h1{
+  .col-sm h1{
     background: linear-gradient(to right, #00b4b1 0%, #026ca8 100%);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;

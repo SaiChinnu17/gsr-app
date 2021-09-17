@@ -19,3 +19,15 @@
     -webkit-background-clip: text;
     font-weight: bold; 
   }
+  .col-sm {
+    margin-top: 15px;
+  }
+  @media screen and (max-width: 599.9px){
+
+  .col-sm{
+     margin-top: 10px;
+  }
+  .col-sm img{
+    width:100%;
+  }
+}
